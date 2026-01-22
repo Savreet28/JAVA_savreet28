@@ -2,10 +2,15 @@ JAVA ~
 
 java syntax - 
 
-public class Main {
-    public static void main(String[] args) { System.out.println("heyy");
+public class j0a {
+    public static void main(String[] args){
+
+        System.out.println("bella ciao");
     }
 }
+
+// Java is a high-level, object-oriented programming language
+// Features of Java - Platform Independent,Simple and Secure
 
 
 
