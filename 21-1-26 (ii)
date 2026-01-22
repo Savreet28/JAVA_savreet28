@@ -1,2 +1,41 @@
 Java Basics ~
 
+// LITERALS in JAVA 
+
+public class j1b {
+    public static void main(String[] args) {
+        // LITERALS -
+
+        byte age1 = 20;
+        int age2 = 25;
+        short age3 = 30;
+        long ageDino = 937148653968596L;
+        char ch = 'i';
+        float f1 = 7.7f;
+        double d1 = 4.443d;
+        boolean t = true;
+        System.out.println(age1);
+        System.out.println(age2);
+        System.out.println(age3);
+        System.out.println(ageDino);
+        System.out.println(ch);
+        System.out.println(f1);
+        System.out.println(d1);
+        System.out.println(t);
+
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
