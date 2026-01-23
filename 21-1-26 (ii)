@@ -1,3 +1,5 @@
+/*
+
 Java Basics ~
 
 // LITERALS in JAVA 
@@ -29,6 +31,134 @@ public class j1b {
     }
 }
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+// Variables - containers that store values (eg - int num = 7) (int-data type, num-variable name, 8-value stored);
+// data types - primitive and non primitive
+
+//primitive - int,byte,double,float,char,bool
+//non primitive - strings,arrays,classes
+
+-------------------------------------------------------------------------------------------------------------------------------------
+// for taking user input in java :
+// import.java.util.scanner ,, scanner sc = new Scanner(System.in)
+// int a = sc.nextInt() ,, for int input
+// double b = sc.nextDouble() ,, for double input
+// String a = sc.nextLine() ,, for string input
+-------------------------------------------------------------------------------------------------------------------------------------
+
+// Naming conventions - pascal and camel case :
+// pascal convention - MyEmployee, MyMarks
+// camel case convention - myMarks, myData
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+// operators - Operators in Java are special symbols used to perform operations on variables and values.
+
+// Types of Operators in Java -
+1. Arithmetic Operators
+
+Used to perform mathematical calculations.
+
+Examples:
+
+(Addition) → 10 + 5 = 15
+
+(Subtraction) → 10 - 5 = 5
+
+(Multiplication) → 10 * 5 = 50
+/ (Division) → 10 / 5 = 2
+% (Modulus) → 10 % 3 = 1
+
+2. Relational Operators
+
+Used to compare two values. Result is true or false.
+
+Examples:
+== (Equal to) → 5 == 5 → true
+!= (Not equal to) → 5 != 3 → true
+
+(Greater than) → 10 > 5 → true
+< (Less than) → 3 < 5 → true
+= (Greater than or equal to) → 5 >= 5 → true
+<= (Less than or equal to) → 4 <= 5 → true
+
+3. Logical Operators
+
+Used to combine conditions.
+
+Examples:
+&& (AND) → true && false → false
+|| (OR) → true || false → true
+! (NOT) → !true → false
+
+4. Assignment Operators
+
+Used to assign values to variables.
+
+Examples:
+= → a = 10
++= → a += 5 (same as a = a + 5)
+-= → a -= 2
+*= → a *= 3
+/= → a /= 2
+
+5. Unary Operators
+
+Operate on a single operand.
+
+Examples:
+
+→ +10
+
+→ -10
+++ → a++ (increment)
+-- → a-- (decrement)
+
+6. Bitwise Operators
+
+Used to perform operations on bits.
+
+Examples:
+& (AND) → 5 & 3 = 1
+| (OR) → 5 | 3 = 7
+^ (XOR) → 5 ^ 3 = 6
+~ (NOT) → ~5
+
+7. Ternary Operator
+
+Used as a short form of if–else.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+// Increment and Decrement operators :
+
+// int i = 4;
+// int j = i++; (first assigned/use then incremented)
+// int k = ++i; (first incremented then assigned/use)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+// STRINGS - it is a sequence of character.
+
+// eg- 
+        String name = "Sofia";
+
+        System.out.println(name.length());      // Output: 5
+        System.out.println(name.toLowerCase()); // Output: sofia
+        System.out.println(name.toUpperCase()); // Output: SOFIA
+        System.out.println(name.trim());        // Output: Sofia
+        System.out.println(name.substring(2));  // Output: fia
+        System.out.println(name.substring(1, 4)); // Output: ofi
+        System.out.println(name.replace('S', 'R')); // Output: Rofia
+        System.out.println(name.startsWith("So"));  // Output: true
+        System.out.println(name.endsWith("ia"));    // Output: true
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -36,6 +166,4 @@ public class j1b {
 
 
 
-
-
-
+*/
