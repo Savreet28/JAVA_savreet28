@@ -6,7 +6,7 @@ Java Basics ~
 
 public class j1b {
     public static void main(String[] args) {
-        // LITERALS -
+    
 
         byte age1 = 20;
         int age2 = 25;
