@@ -1,0 +1,21 @@
+// ARRAYS - collection fo similar type of data
+
+// eg - int[] marks = new int[3] ; marks[0] = 100; marks[1] = 90; marks[2] = 80; sout(marks[1]);
+// eg - int[] marks = { 100,90,80} ; sout(marks[1]);
+
+// ARRAY operations :
+
+// length - sout(marks.length); output - 3
+// displaying full array - for(int i=0; i<marks.length; i++); { sout(marks[i]); (using for loop)
+
+// multi dimensional array - arrays of arrays
+// eg - int [][] = flats; flats = new int [2][2];
+// flats [0][0] = 101; flats [0][1] = 102; flats [1][0] = 201; flats [1][1] = 201;
+// for(int i = 0; i<flats.length; i++) { for(int j = 0; j<flats[i].length; j++) { sout(flats[i][j]);
+
+
+
+
+
+
+
